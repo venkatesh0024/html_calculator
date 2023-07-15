@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="main">
+    <div id="title">Calculator</div>
+    <input type="text" placeholder="0" id="display">
+    <div id="s">
+      <div class="r">
+        <button onclick="AC()" id="sk">AC</button>
+        <button onclick="Delete()" id="sk">Del</button>
+      </div>
+      <div class="r">
+        <button onclick="Display(1)" id="k">1</button>
+        <button onclick="Display(2)" id="k">2</button>
+        <button onclick="Display(3)" id="k">3</button>
+        <button onclick="Display('+')" id="k">+</button>
+      </div>
+      <div class="r">
+        <button onclick="Display(4)" id="k">4</button>
+        <button onclick="Display(5)" id="k">5</button>
+        <button onclick="Display(6)" id="k">6</button>
+        <button onclick="Display('-')" id="k">-</button>
+      </div>
+      <div class="r">
+        <button onclick="Display(7)" id="k">7</button>
+        <button onclick="Display(8)" id="k">8</button>
+        <button onclick="Display(9)" id="k">9</button>
+        <button onclick="Display('*')" id="k">*</button>
+      </div>
+      <div class="r">
+        <button onclick="Display('/')" id="k">÷</button>
+        <button onclick="Display(0)" id="k">0</button>
+        <button onclick="Display('.')" id="k">.</button>
+        <button onclick="calculate()" id="k">=</button>
+      </div>
+    </div>
+  </div>
+  <script src="./app.js"></script>
+</body>
+
+</html>
